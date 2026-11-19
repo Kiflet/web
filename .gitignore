@@ -1,0 +1,24 @@
+# Dependencies
+/node_modules
+/.pnpm-store
+
+# Next.js
+/.next/
+/out/
+next-env.d.ts
+*.tsbuildinfo
+
+# Tests
+/coverage
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Settings with secrets in them; .env.example is the template.
+.env
+.env*.local
+
+# Editors and systems
+.DS_Store
+*.pem
